@@ -1,8 +1,17 @@
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE
+#endif
+#ifndef _POSIX_C_SOURCE
+#define _POSIX_C_SOURCE 200809L
+#endif
+
 #ifndef _SOCKS5_H_
 #define _SOCKS5_H_
 
 #include <netdb.h>
 #include "../../utils/args.h"
+
+struct addrinfo;
 
 // Authentication methods
 #define SOCKS5_AUTH_NONE 0x00
@@ -43,6 +52,6 @@ int handleConnectionData(int clientSocket, int remoteSocket, const char* authent
 
 int socks5_handle_greeting(int client_fd, struct socks5args *args, uint64_t connection_id);
 int socks5_handle_auth(int client_fd, struct socks5args *args, uint64_t connection_id);
-int socks5_handle_request(int client_fd, struct socks5args *args, uint64_t connection_id);
+int socks5_handle_request(int client_fd, struct socks5args *args, uint64_t connection_id, int *dest_port);
 
 #endif

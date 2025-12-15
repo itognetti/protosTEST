@@ -1,3 +1,5 @@
+#define _POSIX_C_SOURCE 200809L
+
 #include "pop3_sniffer.h"
 #include <stdio.h>
 #include <string.h>

@@ -1,3 +1,6 @@
+#define _GNU_SOURCE
+#define _POSIX_C_SOURCE 200809L
+
 #include <arpa/inet.h>
 #include <errno.h>
 #include <limits.h>
@@ -8,6 +11,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <pthread.h>
+#include <time.h>
 
 #include "socks5.h"
 #include "../../utils/util.h"
@@ -625,6 +630,58 @@ static int connect_with_timeout(int sock, const struct sockaddr* addr, socklen_t
     }
 }
 
+typedef struct {
+    const char *host;
+    const char *port;
+    struct addrinfo hints;
+    struct addrinfo *result;
+    int status;
+} resolver_args_t;
+
+static void *resolver_thread(void *arg) {
+    resolver_args_t *r = (resolver_args_t *)arg;
+    r->status = getaddrinfo(r->host, r->port, &r->hints, &r->result);
+    return NULL;
+}
+
+static int getaddrinfo_with_timeout(const char *host, const char *port, const struct addrinfo *hints, struct addrinfo **res, int timeout_ms) {
+    resolver_args_t args = {
+        .host = host,
+        .port = port,
+        .hints = *hints,
+        .result = NULL,
+        .status = EAI_AGAIN,
+    };
+
+    pthread_t tid;
+    if (pthread_create(&tid, NULL, resolver_thread, &args) != 0) {
+        return EAI_AGAIN;
+    }
+
+#ifdef __linux__
+    struct timespec ts;
+    clock_gettime(CLOCK_REALTIME, &ts);
+    ts.tv_sec += timeout_ms / 1000;
+    ts.tv_nsec += (timeout_ms % 1000) * 1000000L;
+    if (ts.tv_nsec >= 1000000000L) {
+        ts.tv_sec += 1;
+        ts.tv_nsec -= 1000000000L;
+    }
+    int join_status = pthread_timedjoin_np(tid, NULL, &ts);
+    if (join_status == ETIMEDOUT) {
+        pthread_cancel(tid);
+        pthread_join(tid, NULL);
+        return EAI_AGAIN;
+    }
+#else
+    // Fallback: simple join without timeout
+    pthread_join(tid, NULL);
+#endif
+
+    *res = args.result;
+    return args.status;
+}
+
 int handleConnectAndReply(int clientSocket, struct addrinfo** connectAddresses, int* remoteSocket) {
     char addrBuf[64];
     int aipIndex = 0;
@@ -921,53 +978,62 @@ int socks5_handle_auth(int client_fd, struct socks5args *args, uint64_t connecti
     }
 }
 
-int socks5_handle_request(int client_fd, struct socks5args *args, uint64_t connection_id) {
-    uint8_t buffer[BUFFER_SIZE];
-    ssize_t n = recv(client_fd, buffer, sizeof(buffer), 0);
-    if (n <= 0) {
-        log_error("Request failed (fd=%d, id=%llu): %s", client_fd, connection_id, n == 0 ? "closed" : strerror(errno));
+int socks5_handle_request(int client_fd, struct socks5args *args, uint64_t connection_id, int *dest_port_out) {
+    uint8_t header[4];
+    if (recvFull(client_fd, header, sizeof(header), 0) < 0) {
+        log_error("Request header failed (fd=%d, id=%llu)", client_fd, connection_id);
         return -1;
     }
 
-    if (buffer[0] != 0x05 || buffer[1] != 0x01) {
-        log_warn("Unsupported request %d/%d (fd=%d, id=%llu)", buffer[0], buffer[1], client_fd, connection_id);
-        return -1; // only CONNECT supported
+    if (header[0] != 0x05 || header[1] != 0x01) {
+        log_warn("Unsupported request %d/%d (fd=%d, id=%llu)", header[0], header[1], client_fd, connection_id);
+        send_socks5_reply(client_fd, REPLY_COMMAND_NOT_SUPPORTED);
+        return -1;
     }
 
-    uint8_t atyp = buffer[3];
+    uint8_t atyp = header[3];
     char dest_addr[256] = {0};
     uint16_t dest_port = 0;
 
     if (atyp == 0x01) { // IPv4
         struct in_addr ipv4_raw;
-        memcpy(&ipv4_raw, &buffer[4], sizeof(ipv4_raw));
+        if (recvFull(client_fd, &ipv4_raw, sizeof(ipv4_raw), 0) < 0) return -1;
+        if (recvFull(client_fd, &dest_port, sizeof(dest_port), 0) < 0) return -1;
+        dest_port = ntohs(dest_port);
         inet_ntop(AF_INET, &ipv4_raw, dest_addr, sizeof(dest_addr));
-        dest_port = ntohs(*(uint16_t*)&buffer[8]);
     } else if (atyp == 0x03) { // domain
-        uint8_t len = buffer[4];
-        memcpy(dest_addr, &buffer[5], len);
+        uint8_t len;
+        if (recvFull(client_fd, &len, sizeof(len), 0) < 0) return -1;
+        if (recvFull(client_fd, dest_addr, len, 0) < 0) return -1;
         dest_addr[len] = '\0';
-        dest_port = ntohs(*(uint16_t*)&buffer[5 + len]);
+        if (recvFull(client_fd, &dest_port, sizeof(dest_port), 0) < 0) return -1;
+        dest_port = ntohs(dest_port);
     } else if (atyp == 0x04) { // IPv6
         struct in6_addr ipv6_raw;
-        memcpy(&ipv6_raw, &buffer[4], sizeof(ipv6_raw));
+        if (recvFull(client_fd, &ipv6_raw, sizeof(ipv6_raw), 0) < 0) return -1;
+        if (recvFull(client_fd, &dest_port, sizeof(dest_port), 0) < 0) return -1;
+        dest_port = ntohs(dest_port);
         inet_ntop(AF_INET6, &ipv6_raw, dest_addr, sizeof(dest_addr));
-        dest_port = ntohs(*(uint16_t*)&buffer[20]);
     } else {
         send_socks5_reply(client_fd, REPLY_ADDRESS_TYPE_NOT_SUPPORTED);
         return -1;
     }
 
+    if (dest_port_out) {
+        *dest_port_out = dest_port;
+    }
+
     log_info("Client requested to connect to %s:%d (fd=%d, id=%llu)", dest_addr, dest_port, client_fd, connection_id);
 
-    // conectamos
-    struct addrinfo hints = {0}, *res, *rp;
+    struct addrinfo hints = {0}, *res = NULL, *rp;
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
+    hints.ai_flags = AI_ADDRCONFIG;
     char port_str[6];
     snprintf(port_str, sizeof(port_str), "%d", dest_port);
-    if (getaddrinfo(dest_addr, port_str, &hints, &res) != 0) {
-        log_error("Failed to resolve address: %s (fd=%d, id=%llu)", dest_addr, client_fd, connection_id);
+    int ga_status = getaddrinfo_with_timeout(dest_addr, port_str, &hints, &res, CONNECTION_TIMEOUT_MS);
+    if (ga_status != 0) {
+        log_error("Failed to resolve address: %s (fd=%d, id=%llu): %s", dest_addr, client_fd, connection_id, gai_strerror(ga_status));
         send_socks5_reply(client_fd, REPLY_HOST_UNREACHABLE);
         return -1;
     }
@@ -976,31 +1042,32 @@ int socks5_handle_request(int client_fd, struct socks5args *args, uint64_t conne
     for (rp = res; rp != NULL; rp = rp->ai_next) {
         remote_fd = socket(rp->ai_family, rp->ai_socktype, rp->ai_protocol);
         if (remote_fd < 0) {
-            continue; // try next address
+            continue;
         }
-        if (connect(remote_fd, rp->ai_addr, rp->ai_addrlen) == 0) {
-            // success
+        int connected = connect_with_timeout(remote_fd, rp->ai_addr, rp->ai_addrlen, CONNECTION_TIMEOUT_MS);
+        if (connected == 1) {
             break;
         }
         close(remote_fd);
         remote_fd = -1;
     }
 
+    freeaddrinfo(res);
+
     if (remote_fd < 0) {
         log_error("Failed to connect to %s:%d (fd=%d, id=%llu) using all resolved addresses", dest_addr, dest_port, client_fd, connection_id);
-        freeaddrinfo(res);
         send_socks5_reply(client_fd, REPLY_CONNECTION_REFUSED);
         return -1;
     }
 
     log_info("Successfully connected to %s:%d (fd=%d, id=%llu)", dest_addr, dest_port, client_fd, connection_id);
 
-    freeaddrinfo(res);
-
-    // respondemos al cliente
     uint8_t response[10] = {0x05, 0x00, 0x00, 0x01};
-    memset(&response[4], 0, 6); // BIND addr y port en 0
-    send(client_fd, response, 10, 0);
+    memset(&response[4], 0, 6);
+    if (sendFull(client_fd, response, sizeof(response), 0) < 0) {
+        close(remote_fd);
+        return -1;
+    }
 
-    return remote_fd; // devolvemos fd remoto válido
+    return remote_fd;
 }

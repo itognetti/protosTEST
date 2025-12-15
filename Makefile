@@ -92,14 +92,24 @@ $(STRESS_C_BINARY): $(STRESS_C_SOURCES)
 	$(COMPILER) $(COMPILERFLAGS) -O2 -std=c11 -pthread $< -o $@
 
 stress-c: server $(STRESS_C_BINARY)
-	@echo "[STRESS-C] Launching SOCKS5 server on port $(STRESS_PORT) in background..."
-	@./bin/socks5 -p $(STRESS_PORT) & \
-	SERVER_PID=$$!; \
-	sleep 1; \
-	$(STRESS_C_BINARY) --host 127.0.0.1 --port $(STRESS_PORT) --total 20000 --concurrency 1000; \
-	STATUS=$$?; \
-	echo "[STRESS-C] Stopping server (PID=$$SERVER_PID)"; \
-	kill $$SERVER_PID 2>/dev/null || true; \
-	exit $$STATUS
+    @stress_user=$${STRESS_USER:-pepe}; \
+    stress_pass=$${STRESS_PASS:-1234}; \
+    stress_target=$${STRESS_TARGET_HOST:-example.org}; \
+    stress_target_port=$${STRESS_TARGET_PORT:-80}; \
+    stress_path=$${STRESS_TARGET_PATH:-/}; \
+    stress_min_resp=$${STRESS_MIN_RESPONSE:-1024}; \
+    echo "[STRESS-C] Launching SOCKS5 server on port $(STRESS_PORT) for user $$stress_user in background..."; \
+    ./bin/socks5 -p $(STRESS_PORT) -u $$stress_user:$$stress_pass & \
+    SERVER_PID=$$!; \
+    sleep 1; \
+    $(STRESS_C_BINARY) --host 127.0.0.1 --port $(STRESS_PORT) \
+        --user $$stress_user --pass $$stress_pass \
+        --target-host $$stress_target --target-port $$stress_target_port \
+        --path $$stress_path --min-response $$stress_min_resp \
+        --total $${STRESS_TOTAL:-20000} --concurrency $${STRESS_CONCURRENCY:-1000}; \
+    STATUS=$$?; \
+    echo "[STRESS-C] Stopping server (PID=$$SERVER_PID)"; \
+    kill $$SERVER_PID 2>/dev/null || true; \
+    exit $$STATUS
 
 .PHONY: stress-c
