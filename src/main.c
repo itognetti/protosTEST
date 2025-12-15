@@ -26,7 +26,6 @@
 #include "shared.h"
 
 #define MAX_CLIENTS 1024
-#define BUFFER_SIZE 4096
 #define MAX_PENDING_CONNECTION_REQUESTS 128
 
 typedef enum {
@@ -40,7 +39,7 @@ typedef enum {
 } client_state;
 
 typedef struct {
-    char data[BUFFER_SIZE];
+    char data[MAX_BUFFER_CAPACITY];
     size_t len;
     size_t offset;
 } pending_buffer_t;
@@ -58,6 +57,7 @@ typedef struct {
 } client_t;
 
 client_t clients[MAX_CLIENTS];
+static size_t relay_buffer_size = DEFAULT_BUFFER_SIZE;
 
 static void reset_pending(pending_buffer_t *pending) {
     pending->len = 0;
@@ -190,14 +190,19 @@ int find_available_client_slot(void) {
 
 static void relay_data(int from_fd, int to_fd, int client_index, struct socks5args *args,
                        pending_buffer_t *pending, fd_set *read_master, fd_set *write_master) {
-    char buffer[BUFFER_SIZE];
+    char buffer[MAX_BUFFER_CAPACITY];
+    const bool dissectors_active = args && args->disectors_enabled && mgmt_are_dissectors_enabled();
     if (pending_has_data(pending)) {
         flush_pending(to_fd, from_fd, pending, read_master, write_master);
         if (pending_has_data(pending)) {
             return;
         }
     }
-    ssize_t nread = recv(from_fd, buffer, sizeof(buffer), 0);
+    size_t chunk = relay_buffer_size;
+    if (chunk > MAX_BUFFER_CAPACITY) {
+        chunk = MAX_BUFFER_CAPACITY;
+    }
+    ssize_t nread = recv(from_fd, buffer, chunk, 0);
     if (nread < 0) {
         if (errno == EAGAIN || errno == EWOULDBLOCK) {
             return;
@@ -215,7 +220,7 @@ static void relay_data(int from_fd, int to_fd, int client_index, struct socks5ar
         return;
     }
 
-    if (args && args->disectors_enabled && clients[client_index].dest_port == 110 && from_fd == clients[client_index].client_fd) {
+    if (dissectors_active && clients[client_index].dest_port == 110 && from_fd == clients[client_index].client_fd) {
         char ip_origen[INET6_ADDRSTRLEN] = "unknown";
         struct sockaddr_storage clientAddr;
         socklen_t clientAddrLen = sizeof(clientAddr);
@@ -235,8 +240,8 @@ static void relay_data(int from_fd, int to_fd, int client_index, struct socks5ar
         if (nwritten < 0) {
             if (errno == EAGAIN || errno == EWOULDBLOCK) {
                 size_t pending_len = (size_t)(nread - total_written);
-                if (pending_len > sizeof(pending->data)) {
-                    pending_len = sizeof(pending->data);
+                if (pending_len > MAX_BUFFER_CAPACITY) {
+                    pending_len = MAX_BUFFER_CAPACITY;
                 }
                 memcpy(pending->data, buffer + total_written, pending_len);
                 pending->len = pending_len;
@@ -266,6 +271,22 @@ int main(int argc, char **argv) {
         log_fatal("Failed to initialize shared memory");
         return 1;
     }
+
+    if (!args.disectors_enabled) {
+        log_info("POP3 dissectors disabled via CLI flag (-N). No credentials will be captured.");
+    } else if (!mgmt_are_dissectors_enabled()) {
+        log_info("POP3 dissectors disabled via management config. Use the client to enable them.");
+    } else {
+        log_info("POP3 dissectors enabled. Captures stored in pop3_credentials.log");
+    }
+
+    int configured_buffer = mgmt_get_buffer_size();
+    if (configured_buffer < MIN_BUFFER_SIZE) {
+        configured_buffer = DEFAULT_BUFFER_SIZE;
+    } else if (configured_buffer > MAX_BUFFER_CAPACITY) {
+        configured_buffer = MAX_BUFFER_CAPACITY;
+    }
+    relay_buffer_size = (size_t)configured_buffer;
 
     printf("[INF] Iniciando servidor SOCKS5...\n");
 
@@ -302,6 +323,17 @@ int main(int argc, char **argv) {
     signal(SIGINT, cleanup_handler);
 
     while (1) {
+        int desired_buffer = mgmt_get_buffer_size();
+        if (desired_buffer < MIN_BUFFER_SIZE) {
+            desired_buffer = DEFAULT_BUFFER_SIZE;
+        } else if (desired_buffer > MAX_BUFFER_CAPACITY) {
+            desired_buffer = MAX_BUFFER_CAPACITY;
+        }
+        if ((size_t)desired_buffer != relay_buffer_size) {
+            relay_buffer_size = (size_t)desired_buffer;
+            log_info("Relay buffer size set to %d bytes", desired_buffer);
+        }
+
         read_set = read_master;
         write_set = write_master;
 

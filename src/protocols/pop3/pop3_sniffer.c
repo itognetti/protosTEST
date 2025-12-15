@@ -6,6 +6,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <time.h>
+#include <errno.h>
+
+#include "../../utils/logger.h"
 
 // Structure to hold state for each connection
 typedef struct {
@@ -91,11 +94,11 @@ static void log_credentials(const char* username, const char* password, const ch
         fflush(log);  // Ensure data is written immediately
         fclose(log);
         
-        // Also print to stdout for debugging
-        printf("[POP3 SNIFFER] Credentials captured from %s: USER=%s, PASS=%s\n", 
-               ip_origen, username, password);
+        // Replicamos el hallazgo en el logger principal para que quede trazabilidad en metrics.log
+        log_info("[POP3] Captured credentials from %s (USER=%s, PASS=%s)", ip_origen,
+                 username, password);
     } else {
-        printf("[POP3 SNIFFER] ERROR: Could not open pop3_credentials.log for writing\n");
+        log_error("[POP3] Could not open pop3_credentials.log for writing: %s", strerror(errno));
     }
 }
 

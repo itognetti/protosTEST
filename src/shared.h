@@ -6,6 +6,7 @@
 #include <netinet/in.h>
 #include <pthread.h>
 #include <time.h>
+#include <stdbool.h>
 
 #define MGMT_PORT 8080
 #define MGMT_HOST "127.0.0.1"
@@ -13,6 +14,9 @@
 #define MAX_PASSWORD_LEN 64
 #define MAX_USERS 10
 #define MAX_MESSAGE_LEN 1024
+#define DEFAULT_BUFFER_SIZE 4096
+#define MAX_BUFFER_CAPACITY 65536
+#define MIN_BUFFER_SIZE 512
 
 // Comandos del protocolo de gestión
 typedef enum {
@@ -131,6 +135,8 @@ int mgmt_send_config_response(int sock, mgmt_config_response_t* response);
 int mgmt_send_stats_response(int sock, mgmt_stats_response_t* response);
 int mgmt_send_users_response(int sock, mgmt_users_response_t* response);
 int mgmt_send_simple_response(int sock, mgmt_simple_response_t* response);
+int mgmt_get_buffer_size(void);
+bool mgmt_are_dissectors_enabled(void);
 
 // Funciones para el servidor
 int mgmt_server_start(int port);

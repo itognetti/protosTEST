@@ -5790,3 +5790,2022 @@
 2025-12-15 01:09:32 [INFO ] Connection closed in relay (client=16)
 2025-12-15 01:09:32 [INFO ] Connection closed in relay (client=21)
 2025-12-15 01:09:32 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:06 [INFO ] Accepted new client (fd=6, id=1)
+2025-12-15 18:37:06 [INFO ] Handling GREETING for fd=6, id=1
+2025-12-15 18:37:06 [INFO ] Handling AUTH for fd=6, id=1
+2025-12-15 18:37:06 [INFO ] Auth attempt for user 'pepe' (fd=6, id=1)
+2025-12-15 18:37:06 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:06 [INFO ] Handling REQUEST for fd=6, id=1
+2025-12-15 18:37:06 [INFO ] Client requested to connect to 172.66.157.88:443 (fd=6, id=1)
+2025-12-15 18:37:06 [INFO ] Successfully connected to 172.66.157.88:443 (fd=6, id=1)
+2025-12-15 18:37:06 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=6, id=2)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=7, id=3)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=6, id=2
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=8, id=4)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=6, id=2
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=6, id=2)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=7, id=3
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=9, id=5)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=6, id=2
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=6, id=2)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=6, id=2)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=7, id=3
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=7, id=3)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=8, id=4
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=14, id=6)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=7, id=3
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=7, id=3)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=7, id=3)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=9, id=5
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=16, id=7)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=8, id=4
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=8, id=4)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=14, id=6
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=17, id=8)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=8, id=4
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=8, id=4)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=8, id=4)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=9, id=5
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=9, id=5)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=14, id=6
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=14, id=6)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=16, id=7
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=19, id=9)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=9, id=5
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=9, id=5)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=9, id=5)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=14, id=6
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=14, id=6)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=14, id=6)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=16, id=7
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=16, id=7)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=17, id=8
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=22, id=10)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=16, id=7
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=16, id=7)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=16, id=7)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=17, id=8
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=17, id=8)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=19, id=9
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=24, id=11)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=17, id=8
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=17, id=8)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=17, id=8)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=22, id=10
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=26, id=12)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=19, id=9
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=19, id=9)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=24, id=11
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=27, id=13)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=19, id=9
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=19, id=9)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=19, id=9)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=22, id=10
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=22, id=10)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=24, id=11
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=24, id=11)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=26, id=12
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=29, id=14)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=22, id=10
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=22, id=10)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=22, id=10)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=24, id=11
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=24, id=11)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=24, id=11)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=26, id=12
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=26, id=12)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=27, id=13
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=32, id=15)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=26, id=12
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=26, id=12)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=26, id=12)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=27, id=13
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=27, id=13)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=29, id=14
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=34, id=16)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=27, id=13
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=27, id=13)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=27, id=13)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=32, id=15
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=36, id=17)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=29, id=14
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=29, id=14)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=34, id=16
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=37, id=18)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=29, id=14
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=29, id=14)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=29, id=14)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=32, id=15
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=32, id=15)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=36, id=17
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=39, id=19)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=34, id=16
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=34, id=16)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=37, id=18
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=40, id=20)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=32, id=15
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=32, id=15)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=32, id=15)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=34, id=16
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=34, id=16)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=34, id=16)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=36, id=17
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=36, id=17)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=37, id=18
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=37, id=18)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=39, id=19
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=43, id=21)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=36, id=17
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=36, id=17)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=36, id=17)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=37, id=18
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=37, id=18)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=37, id=18)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=39, id=19
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=39, id=19)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=40, id=20
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=39, id=19
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=39, id=19)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=39, id=19)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=43, id=21
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=40, id=20
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=40, id=20)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=43, id=21
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=43, id=21)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=40, id=20
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=40, id=20)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=40, id=20)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=43, id=21
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=43, id=21)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=43, id=21)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=27)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=37)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=39)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=9, id=22)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=32)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=34)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=34)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=40)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=43)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=43)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=8, id=23)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=9, id=22
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=29)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=29)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=36)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=36)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=6, id=24)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=8, id=23
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=9, id=22
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=9, id=22)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=7, id=25)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=6, id=24
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=8, id=23
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=8, id=23)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=9, id=22
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=9, id=22)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=9, id=22)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=14, id=26)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=6, id=24
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=6, id=24)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=7, id=25
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=8, id=23
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=8, id=23)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=8, id=23)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=16, id=27)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=6, id=24
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=6, id=24)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=6, id=24)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=7, id=25
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=7, id=25)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=14, id=26
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=18, id=28)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=16, id=27
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=19, id=29)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=18, id=28
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=20, id=30)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=19, id=29
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=21, id=31)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=20, id=30
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=22, id=32)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=7, id=25
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=7, id=25)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=7, id=25)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=21, id=31
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=24, id=33)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=14, id=26
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=14, id=26)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=16, id=27
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=16, id=27)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=18, id=28
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=18, id=28)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=19, id=29
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=19, id=29)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=20, id=30
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=20, id=30)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=22, id=32
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=25, id=34)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=14, id=26
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=14, id=26)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=14, id=26)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=16, id=27
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=16, id=27)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=16, id=27)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=18, id=28
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=18, id=28)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=18, id=28)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=19, id=29
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=19, id=29)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=19, id=29)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=20, id=30
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=20, id=30)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=20, id=30)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=21, id=31
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=21, id=31)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=22, id=32
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=22, id=32)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=24, id=33
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=31, id=35)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=21, id=31
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=21, id=31)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=21, id=31)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=25, id=34
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=33, id=36)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=22, id=32
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=22, id=32)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=22, id=32)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=24, id=33
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=24, id=33)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=25, id=34
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=25, id=34)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=31, id=35
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=7, id=37)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=24, id=33
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=24, id=33)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=24, id=33)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=25, id=34
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=25, id=34)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=25, id=34)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=31, id=35
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=31, id=35)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=33, id=36
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=13, id=38)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=7, id=37
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=31, id=35
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=31, id=35)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=31, id=35)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=33, id=36
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=33, id=36)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=17, id=39)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=7, id=37
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=7, id=37)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=13, id=38
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=33, id=36
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=33, id=36)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=33, id=36)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=14, id=40)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=7, id=37
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=7, id=37)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=7, id=37)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=13, id=38
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=13, id=38)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=17, id=39
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=16, id=41)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=13, id=38
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=13, id=38)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=13, id=38)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=17, id=39
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=17, id=39)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=14, id=40
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=8, id=42)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=17, id=39
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=17, id=39)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=17, id=39)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=14, id=40
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=14, id=40)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=16, id=41
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=31)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=31)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=15, id=43)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=14, id=40
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=14, id=40)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=14, id=40)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=16, id=41
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=16, id=41)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=8, id=42
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=22, id=44)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=16, id=41
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=16, id=41)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=16, id=41)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=8, id=42
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=8, id=42)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=15, id=43
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=25)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=9, id=45)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=8, id=42
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=8, id=42)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=8, id=42)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=15, id=43
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=15, id=43)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=22, id=44
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=33)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=6, id=46)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=15, id=43
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=15, id=43)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=15, id=43)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=22, id=44
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=22, id=44)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=9, id=45
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=17, id=47)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=22, id=44
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=22, id=44)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=22, id=44)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=9, id=45
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=9, id=45)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=6, id=46
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=14, id=48)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=17, id=47
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=9, id=45
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=9, id=45)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=9, id=45)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=6, id=46
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=6, id=46)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=19, id=49)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=17, id=47
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=17, id=47)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=14, id=48
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=8, id=50)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=17, id=47
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=17, id=47)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=17, id=47)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=14, id=48
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=14, id=48)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=19, id=49
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=6, id=46
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=6, id=46)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=6, id=46)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=21, id=51)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=14, id=48
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=14, id=48)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=14, id=48)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=19, id=49
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=19, id=49)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=8, id=50
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=24, id=52)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=19, id=49
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=19, id=49)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=19, id=49)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=8, id=50
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=8, id=50)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=21, id=51
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=7, id=53)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=8, id=50
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=8, id=50)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=8, id=50)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=21, id=51
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=21, id=51)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=24, id=52
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=13, id=54)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=21, id=51
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=21, id=51)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=21, id=51)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=24, id=52
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=24, id=52)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=7, id=53
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=16, id=55)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=24, id=52
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=24, id=52)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=24, id=52)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=7, id=53
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=7, id=53)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=13, id=54
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=17, id=56)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=16, id=55
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=7, id=53
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=7, id=53)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=7, id=53)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=13, id=54
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=13, id=54)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=6, id=57)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=16, id=55
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=16, id=55)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=17, id=56
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=13, id=54
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=13, id=54)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=13, id=54)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=9, id=58)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=16, id=55
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=16, id=55)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=16, id=55)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=17, id=56
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=17, id=56)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=6, id=57
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=19, id=59)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=17, id=56
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=17, id=56)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=17, id=56)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=9, id=58
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=6, id=57
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=6, id=57)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=14, id=60)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=19, id=59
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=9, id=58
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=9, id=58)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=6, id=57
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=6, id=57)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=6, id=57)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=15, id=61)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=19, id=59
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=19, id=59)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=9, id=58
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=9, id=58)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=9, id=58)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=14, id=60
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=21, id=62)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=19, id=59
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=19, id=59)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=19, id=59)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=15, id=61
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=24, id=63)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=15, id=61
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=15, id=61)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=14, id=60
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=14, id=60)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=21, id=62
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=8, id=64)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=15, id=61
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=15, id=61)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=15, id=61)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=14, id=60
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=14, id=60)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=14, id=60)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=21, id=62
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=21, id=62)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=24, id=63
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=17, id=65)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=8, id=64
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=21, id=62
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=21, id=62)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=21, id=62)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=22, id=66)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=8, id=64
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=8, id=64)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=17, id=65
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=24, id=63
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=24, id=63)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=6, id=67)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=8, id=64
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=8, id=64)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=8, id=64)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=17, id=65
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=17, id=65)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=22, id=66
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=9, id=68)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=17, id=65
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=17, id=65)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=17, id=65)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=6, id=67
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=22, id=66
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=22, id=66)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=24, id=63
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=24, id=63)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=24, id=63)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=23, id=69)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=6, id=67
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=6, id=67)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=9, id=68
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=22, id=66
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=22, id=66)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=22, id=66)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=15, id=70)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=6, id=67
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=6, id=67)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=6, id=67)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=9, id=68
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=9, id=68)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=23, id=69
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=14, id=71)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=9, id=68
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=9, id=68)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=9, id=68)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=15, id=70
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=23, id=69
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=23, id=69)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=8, id=72)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=15, id=70
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=15, id=70)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=14, id=71
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=16, id=73)
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=8, id=72
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=15, id=70
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=15, id=70)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=15, id=70)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=23, id=69
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=23, id=69)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=23, id=69)
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=26, id=74)
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=8, id=72
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=8, id=72)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling AUTH for fd=14, id=71
+2025-12-15 18:37:44 [INFO ] Auth attempt for user 'pepe' (fd=14, id=71)
+2025-12-15 18:37:44 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:44 [INFO ] Handling GREETING for fd=16, id=73
+2025-12-15 18:37:44 [INFO ] Accepted new client (fd=27, id=75)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=8, id=72
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=8, id=72)
+2025-12-15 18:37:44 [INFO ] Successfully connected to example.org:80 (fd=8, id=72)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:44 [INFO ] Handling REQUEST for fd=14, id=71
+2025-12-15 18:37:44 [INFO ] Client requested to connect to example.org:80 (fd=14, id=71)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=14, id=71)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=26, id=74
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=7, id=76)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=16, id=73
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=16, id=73)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=27, id=75
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=9, id=77)
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=7, id=76
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=26, id=74
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=26, id=74)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=13, id=78)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=7, id=76
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=7, id=76)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=9, id=77
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=16, id=73
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=16, id=73)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=16, id=73)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=27, id=75
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=27, id=75)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=17, id=79)
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=7, id=76
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=7, id=76)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=7, id=76)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=9, id=77
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=9, id=77)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=13, id=78
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=26, id=74
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=26, id=74)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=26, id=74)
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=27, id=75
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=27, id=75)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=27, id=75)
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=22, id=80)
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=9, id=77
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=9, id=77)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=9, id=77)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=13, id=78
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=13, id=78)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=17, id=79
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=6, id=81)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=13, id=78
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=13, id=78)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=13, id=78)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=17, id=79
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=17, id=79)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=22, id=80
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=14, id=82)
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=17, id=79
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=17, id=79)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=17, id=79)
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=6, id=81
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=22, id=80
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=22, id=80)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=16, id=83)
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=14, id=82
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=6, id=81
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=6, id=81)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=7, id=84)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=14, id=82
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=14, id=82)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=6, id=81
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=6, id=81)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=6, id=81)
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=16, id=83
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=22, id=80
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=22, id=80)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=22, id=80)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=19, id=85)
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=14, id=82
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=14, id=82)
+2025-12-15 18:37:45 [INFO ] Successfully connected to example.org:80 (fd=14, id=82)
+2025-12-15 18:37:45 [INFO ] Handling GREETING for fd=7, id=84
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=16, id=83
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=16, id=83)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Accepted new client (fd=25, id=86)
+2025-12-15 18:37:45 [INFO ] Handling AUTH for fd=7, id=84
+2025-12-15 18:37:45 [INFO ] Auth attempt for user 'pepe' (fd=7, id=84)
+2025-12-15 18:37:45 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:45 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:45 [INFO ] Handling REQUEST for fd=16, id=83
+2025-12-15 18:37:45 [INFO ] Client requested to connect to example.org:80 (fd=16, id=83)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=16, id=83)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=19, id=85
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=27)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=9, id=87)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=7, id=84
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=7, id=84)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=7, id=84)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=19, id=85
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=19, id=85)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=25, id=86
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=15, id=88)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=9, id=87
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=6, id=89)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=9, id=87
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=9, id=87)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=15, id=88
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=19, id=85
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=19, id=85)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=19, id=85)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=25, id=86
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=25, id=86)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=17, id=90)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=6, id=89
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=9, id=87
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=9, id=87)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=9, id=87)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=15, id=88
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=15, id=88)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=20, id=91)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=6, id=89
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=6, id=89)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=17, id=90
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=25, id=86
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=25, id=86)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=25, id=86)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=22, id=92)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=6, id=89
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=6, id=89)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=6, id=89)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=15, id=88
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=15, id=88)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=15, id=88)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=17, id=90
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=17, id=90)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=20, id=91
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=13, id=93)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=17, id=90
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=17, id=90)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=17, id=90)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=20, id=91
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=20, id=91)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=22, id=92
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=26, id=94)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=13, id=93
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=20, id=91
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=20, id=91)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=20, id=91)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=22, id=92
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=22, id=92)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=8, id=95)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=13, id=93
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=13, id=93)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=22, id=92
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=22, id=92)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=22, id=92)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=26, id=94
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=16, id=96)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=13, id=93
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=13, id=93)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=13, id=93)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=8, id=95
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=25)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=25)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=26, id=94
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=26, id=94)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=7, id=97)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=8, id=95
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=8, id=95)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=16, id=96
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=9, id=98)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=7, id=97
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=26, id=94
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=26, id=94)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=26, id=94)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=17, id=99)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=7, id=97
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=7, id=97)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=9, id=98
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=8, id=95
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=8, id=95)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=8, id=95)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=16, id=96
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=16, id=96)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=19, id=100)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=7, id=97
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=7, id=97)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=7, id=97)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=9, id=98
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=9, id=98)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=17, id=99
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=23, id=101)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=9, id=98
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=9, id=98)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=9, id=98)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=17, id=99
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=17, id=99)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=19, id=100
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=16, id=96
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=16, id=96)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=16, id=96)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=28, id=102)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=17, id=99
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=17, id=99)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=17, id=99)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=19, id=100
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=19, id=100)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=23, id=101
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=13, id=103)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=19, id=100
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=19, id=100)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=19, id=100)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=28, id=102
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=8, id=104)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=13, id=103
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=23, id=101
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=23, id=101)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=7, id=105)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=13, id=103
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=13, id=103)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=8, id=104
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=23, id=101
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=23, id=101)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=23, id=101)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=28, id=102
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=28, id=102)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=15, id=106)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=7, id=105
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=13, id=103
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=13, id=103)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=13, id=103)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=8, id=104
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=8, id=104)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=20, id=107)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=7, id=105
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=7, id=105)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=15, id=106
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=28, id=102
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=28, id=102)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=28, id=102)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=17, id=108)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=7, id=105
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=7, id=105)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=7, id=105)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=15, id=106
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=15, id=106)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=8, id=104
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=8, id=104)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=8, id=104)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=20, id=107
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=16, id=109)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=15, id=106
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=15, id=106)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=15, id=106)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=17, id=108
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=20, id=107
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=20, id=107)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=9, id=110)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=17, id=108
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=17, id=108)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=16, id=109
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=20, id=107
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=20, id=107)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=20, id=107)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=18, id=111)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=17, id=108
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=17, id=108)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=17, id=108)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=16, id=109
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=16, id=109)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=9, id=110
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=23, id=112)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=18, id=111
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=16, id=109
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=16, id=109)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=16, id=109)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=9, id=110
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=9, id=110)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=21, id=113)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=18, id=111
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=18, id=111)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=23, id=112
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=8, id=114)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=21, id=113
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=18, id=111
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=18, id=111)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=18, id=111)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=9, id=110
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=9, id=110)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=9, id=110)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=19, id=115)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=21, id=113
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=21, id=113)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=8, id=114
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=23, id=112
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=23, id=112)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=24, id=116)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=21, id=113
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=21, id=113)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=21, id=113)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=8, id=114
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=8, id=114)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=19, id=115
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=28)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=6, id=117)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=8, id=114
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=8, id=114)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=8, id=114)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=19, id=115
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=19, id=115)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=23, id=112
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=23, id=112)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=23, id=112)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=24, id=116
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=16, id=118)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=6, id=117
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=19, id=115
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=19, id=115)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=19, id=115)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=24, id=116
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=24, id=116)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=20, id=119)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=6, id=117
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=6, id=117)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=16, id=118
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=24, id=116
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=24, id=116)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=24, id=116)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=18, id=120)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=20, id=119
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=6, id=117
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=6, id=117)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=6, id=117)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=16, id=118
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=16, id=118)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=26, id=121)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=18, id=120
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=20, id=119
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=20, id=119)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=9, id=122)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=18, id=120
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=18, id=120)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=20, id=119
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=20, id=119)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=20, id=119)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=16, id=118
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=16, id=118)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=16, id=118)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=26, id=121
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=15, id=123)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=9, id=122
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=18, id=120
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=18, id=120)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=18, id=120)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=26, id=121
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=26, id=121)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=19, id=124)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=9, id=122
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=9, id=122)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=15, id=123
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=6, id=125)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=9, id=122
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=9, id=122)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=9, id=122)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=15, id=123
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=15, id=123)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=19, id=124
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=26, id=121
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=26, id=121)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=26, id=121)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=21, id=126)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=15, id=123
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=15, id=123)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=15, id=123)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=6, id=125
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=19, id=124
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=19, id=124)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=23, id=127)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=6, id=125
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=6, id=125)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=21, id=126
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=7, id=128)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=19, id=124
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=19, id=124)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=19, id=124)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=23, id=127
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=18, id=129)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=7, id=128
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=6, id=125
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=6, id=125)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=6, id=125)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=21, id=126
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=21, id=126)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=23, id=127
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=23, id=127)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=8, id=130)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=18, id=129
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=7, id=128
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=7, id=128)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=21, id=126
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=21, id=126)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=21, id=126)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=13, id=131)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=18, id=129
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=18, id=129)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=7, id=128
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=7, id=128)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=7, id=128)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=8, id=130
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=23, id=127
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=23, id=127)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=23, id=127)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=16, id=132)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=13, id=131
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=18, id=129
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=18, id=129)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=18, id=129)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=8, id=130
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=8, id=130)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=24, id=133)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=13, id=131
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=13, id=131)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=16, id=132
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=8, id=130
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=8, id=130)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=8, id=130)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=20, id=134)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=13, id=131
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=13, id=131)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=13, id=131)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=16, id=132
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=16, id=132)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=24, id=133
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=9, id=135)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=16, id=132
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=16, id=132)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=16, id=132)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=20, id=134
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=24, id=133
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=24, id=133)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=17, id=136)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=20, id=134
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=20, id=134)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=9, id=135
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=24, id=133
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=24, id=133)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=24, id=133)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=14, id=137)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=20, id=134
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=20, id=134)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=20, id=134)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=17, id=136
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=9, id=135
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=9, id=135)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=26, id=138)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=14, id=137
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=17, id=136
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=17, id=136)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=6, id=139)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=14, id=137
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=14, id=137)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=17, id=136
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=17, id=136)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=17, id=136)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=9, id=135
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=9, id=135)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=9, id=135)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=26, id=138
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=15, id=140)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=6, id=139
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=14, id=137
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=14, id=137)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=14, id=137)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=18, id=141)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=6, id=139
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=6, id=139)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=15, id=140
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=26, id=138
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=26, id=138)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=7, id=142)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=6, id=139
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=6, id=139)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=6, id=139)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=15, id=140
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=15, id=140)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=18, id=141
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=19, id=143)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=15, id=140
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=15, id=140)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=15, id=140)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=18, id=141
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=18, id=141)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=7, id=142
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=26, id=138
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=26, id=138)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=26, id=138)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=23, id=144)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=18, id=141
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=18, id=141)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=18, id=141)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=19, id=143
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=7, id=142
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=7, id=142)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=14, id=145)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=19, id=143
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=19, id=143)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=7, id=142
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=7, id=142)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=7, id=142)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=23, id=144
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=9, id=146)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=14, id=145
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=19, id=143
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=19, id=143)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=19, id=143)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=23, id=144
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=23, id=144)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=8, id=147)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=14, id=145
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=14, id=145)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=9, id=146
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=23, id=144
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=23, id=144)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=23, id=144)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=17, id=148)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=14, id=145
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=14, id=145)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=14, id=145)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=8, id=147
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=9, id=146
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=9, id=146)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=25, id=149)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=17, id=148
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=8, id=147
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=8, id=147)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=9, id=146
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=9, id=146)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=9, id=146)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=15, id=150)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=17, id=148
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=17, id=148)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=8, id=147
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=8, id=147)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=8, id=147)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=25, id=149
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=7, id=151)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=17, id=148
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=17, id=148)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=17, id=148)
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=15, id=150
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=14, id=152)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=15, id=150
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=15, id=150)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=7, id=151
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=25, id=149
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=25, id=149)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=19, id=153)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=15, id=150
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=15, id=150)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=15, id=150)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=7, id=151
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=7, id=151)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=14, id=152
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=6, id=154)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=7, id=151
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=7, id=151)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=7, id=151)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=14, id=152
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=14, id=152)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=19, id=153
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=25, id=149
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=25, id=149)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=25, id=149)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=23, id=155)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=14, id=152
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=14, id=152)
+2025-12-15 18:37:46 [INFO ] Successfully connected to example.org:80 (fd=14, id=152)
+2025-12-15 18:37:46 [INFO ] Handling AUTH for fd=19, id=153
+2025-12-15 18:37:46 [INFO ] Auth attempt for user 'pepe' (fd=19, id=153)
+2025-12-15 18:37:46 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:46 [INFO ] Handling GREETING for fd=6, id=154
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:46 [INFO ] Accepted new client (fd=9, id=156)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:46 [INFO ] Handling REQUEST for fd=19, id=153
+2025-12-15 18:37:46 [INFO ] Client requested to connect to example.org:80 (fd=19, id=153)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=19, id=153)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=6, id=154
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=6, id=154)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=23, id=155
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=8, id=157)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=6, id=154
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=6, id=154)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=6, id=154)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=9, id=156
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=23, id=155
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=23, id=155)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=15, id=158)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=8, id=157
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=9, id=156
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=9, id=156)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=23, id=155
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=23, id=155)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=23, id=155)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=16, id=159)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=8, id=157
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=8, id=157)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=15, id=158
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=9, id=156
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=9, id=156)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=9, id=156)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=18, id=160)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=8, id=157
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=8, id=157)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=8, id=157)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=15, id=158
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=15, id=158)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=16, id=159
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=25)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=13, id=161)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=15, id=158
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=15, id=158)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=15, id=158)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=16, id=159
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=16, id=159)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=18, id=160
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=6, id=162)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=16, id=159
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=16, id=159)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=16, id=159)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=18, id=160
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=18, id=160)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=13, id=161
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=21, id=163)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=18, id=160
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=18, id=160)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=18, id=160)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=6, id=162
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=24, id=164)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=13, id=161
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=13, id=161)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=6, id=162
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=6, id=162)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=21, id=163
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=9, id=165)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=13, id=161
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=13, id=161)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=13, id=161)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=6, id=162
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=6, id=162)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=6, id=162)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=21, id=163
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=21, id=163)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=24, id=164
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=17, id=166)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=21, id=163
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=21, id=163)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=21, id=163)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=9, id=165
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=24, id=164
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=24, id=164)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=23, id=167)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=17, id=166
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=9, id=165
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=9, id=165)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=7, id=168)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=17, id=166
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=17, id=166)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=23, id=167
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=24, id=164
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=24, id=164)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=24, id=164)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=8, id=169)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=7, id=168
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=17, id=166
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=17, id=166)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=17, id=166)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=9, id=165
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=9, id=165)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=9, id=165)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=23, id=167
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=23, id=167)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=18, id=170)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=7, id=168
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=7, id=168)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=8, id=169
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=19, id=171)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=7, id=168
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=7, id=168)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=7, id=168)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=8, id=169
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=8, id=169)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=18, id=170
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=23, id=167
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=23, id=167)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=23, id=167)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=14, id=172)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=8, id=169
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=8, id=169)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=8, id=169)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=18, id=170
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=18, id=170)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=19, id=171
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=22, id=173)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=18, id=170
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=18, id=170)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=18, id=170)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=14, id=172
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=19, id=171
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=19, id=171)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=6, id=174)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=14, id=172
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=14, id=172)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=19, id=171
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=19, id=171)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=19, id=171)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=22, id=173
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=24, id=175)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=6, id=174
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=14, id=172
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=14, id=172)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=14, id=172)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=22, id=173
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=22, id=173)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=8, id=176)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=6, id=174
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=6, id=174)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=22, id=173
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=22, id=173)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=22, id=173)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=24, id=175
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=16, id=177)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=8, id=176
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=6, id=174
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=6, id=174)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=6, id=174)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=18)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=23)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=13, id=178)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=8, id=176
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=8, id=176)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=16, id=177
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=24, id=175
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=24, id=175)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=7, id=179)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=8, id=176
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=8, id=176)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=8, id=176)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=16, id=177
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=16, id=177)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=13, id=178
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=15, id=180)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=16, id=177
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=16, id=177)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=16, id=177)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=13, id=178
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=13, id=178)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=7, id=179
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=24, id=175
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=24, id=175)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=24, id=175)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=19, id=181)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=13, id=178
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=13, id=178)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=13, id=178)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=7, id=179
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=7, id=179)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=15, id=180
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=9, id=182)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=7, id=179
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=7, id=179)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=7, id=179)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=15, id=180
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=15, id=180)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=19, id=181
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=14, id=183)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=9, id=182
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=15, id=180
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=15, id=180)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=15, id=180)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=19, id=181
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=19, id=181)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=21, id=184)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=14, id=183
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=9, id=182
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=9, id=182)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=16, id=185)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=14, id=183
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=14, id=183)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=9, id=182
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=9, id=182)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=9, id=182)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=21, id=184
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=19, id=181
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=19, id=181)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=19, id=181)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=13, id=186)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=14, id=183
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=14, id=183)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=14, id=183)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=16, id=185
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=21, id=184
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=21, id=184)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=22, id=187)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=16, id=185
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=16, id=185)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=13, id=186
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=7, id=188)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=16, id=185
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=16, id=185)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=16, id=185)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=13, id=186
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=13, id=186)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=21, id=184
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=21, id=184)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=21, id=184)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=22, id=187
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=20, id=189)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=13, id=186
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=13, id=186)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=13, id=186)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=7, id=188
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=24, id=190)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=7, id=188
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=7, id=188)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=20, id=189
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=19)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=22, id=187
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=22, id=187)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=6, id=191)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=7, id=188
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=7, id=188)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=7, id=188)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=20, id=189
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=20, id=189)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=24, id=190
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=17, id=192)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=6, id=191
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=20, id=189
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=20, id=189)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=20, id=189)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=22, id=187
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=22, id=187)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=22, id=187)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=24, id=190
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=24, id=190)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=26, id=193)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=14)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=6, id=191
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=6, id=191)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=17, id=192
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=8, id=194)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=6, id=191
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=6, id=191)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=6, id=191)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=21)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=17, id=192
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=17, id=192)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=24, id=190
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=24, id=190)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=24, id=190)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=26, id=193
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=9, id=195)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=8, id=194
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=17, id=192
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=17, id=192)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=17, id=192)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=26, id=193
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=26, id=193)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=15, id=196)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=8, id=194
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=8, id=194)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=9, id=195
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=16, id=197)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=8, id=194
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=8, id=194)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=8, id=194)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=9, id=195
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=9, id=195)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=15, id=196
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=26, id=193
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=26, id=193)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=26, id=193)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=20, id=198)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=9, id=195
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=9, id=195)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=9, id=195)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=15, id=196
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=15, id=196)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=16, id=197
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=22, id=199)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=6)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=15, id=196
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=15, id=196)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=15, id=196)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=16, id=197
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=16, id=197)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=20, id=198
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=24)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=7, id=200)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=16, id=197
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=16, id=197)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=16, id=197)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=20, id=198
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=20, id=198)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=22, id=199
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=17)
+2025-12-15 18:37:47 [INFO ] Accepted new client (fd=13, id=201)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=8)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=7, id=200
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=20, id=198
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=20, id=198)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=20, id=198)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=22, id=199
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=22, id=199)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=7, id=200
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=7, id=200)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=9)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=22, id=199
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=22, id=199)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=22, id=199)
+2025-12-15 18:37:47 [INFO ] Handling GREETING for fd=13, id=201
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=7, id=200
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=7, id=200)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=7, id=200)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=15)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=26)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=16)
+2025-12-15 18:37:47 [INFO ] Handling AUTH for fd=13, id=201
+2025-12-15 18:37:47 [INFO ] Auth attempt for user 'pepe' (fd=13, id=201)
+2025-12-15 18:37:47 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=20)
+2025-12-15 18:37:47 [INFO ] Handling REQUEST for fd=13, id=201
+2025-12-15 18:37:47 [INFO ] Client requested to connect to example.org:80 (fd=13, id=201)
+2025-12-15 18:37:47 [INFO ] Successfully connected to example.org:80 (fd=13, id=201)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=7)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=22)
+2025-12-15 18:37:47 [INFO ] Connection closed in relay (client=13)
+2025-12-15 18:50:22 [INFO ] Accepted new client (fd=6, id=1)
+2025-12-15 18:50:22 [INFO ] Handling GREETING for fd=6, id=1
+2025-12-15 18:50:22 [INFO ] Handling AUTH for fd=6, id=1
+2025-12-15 18:50:22 [INFO ] Auth attempt for user 'hola' (fd=6, id=1)
+2025-12-15 18:50:22 [ACCESS] user='hola' status='AUTH_FAIL' details='Authentication failed for user'
+2025-12-15 18:53:19 [INFO ] Accepted new client (fd=6, id=2)
+2025-12-15 18:53:19 [INFO ] Handling GREETING for fd=6, id=2
+2025-12-15 18:53:19 [INFO ] Handling AUTH for fd=6, id=2
+2025-12-15 18:53:19 [INFO ] Auth attempt for user 'pepe' (fd=6, id=2)
+2025-12-15 18:53:19 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 18:53:19 [INFO ] Handling REQUEST for fd=6, id=2
+2025-12-15 18:53:19 [INFO ] Client requested to connect to 127.0.0.1:8888 (fd=6, id=2)
+2025-12-15 18:53:19 [ERROR] Failed to connect to 127.0.0.1:8888 (fd=6, id=2) using all resolved addresses (errno: Connection refused)
+2025-12-15 19:45:50 [INFO ] Accepted new client (fd=6, id=3)
+2025-12-15 19:45:50 [INFO ] Handling GREETING for fd=6, id=3
+2025-12-15 19:45:50 [INFO ] Handling AUTH for fd=6, id=3
+2025-12-15 19:45:50 [INFO ] Auth attempt for user 'pepe' (fd=6, id=3)
+2025-12-15 19:45:50 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 19:45:50 [INFO ] Handling REQUEST for fd=6, id=3
+2025-12-15 19:45:50 [INFO ] Client requested to connect to 127.0.0.1:8888 (fd=6, id=3)
+2025-12-15 19:45:50 [ERROR] Failed to connect to 127.0.0.1:8888 (fd=6, id=3) using all resolved addresses (errno: Connection refused)
+2025-12-15 19:46:19 [INFO ] Accepted new client (fd=6, id=4)
+2025-12-15 19:46:19 [INFO ] Handling GREETING for fd=6, id=4
+2025-12-15 19:46:19 [INFO ] Handling AUTH for fd=6, id=4
+2025-12-15 19:46:19 [INFO ] Auth attempt for user 'pepe' (fd=6, id=4)
+2025-12-15 19:46:19 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 19:46:19 [INFO ] Handling REQUEST for fd=6, id=4
+2025-12-15 19:46:19 [INFO ] Client requested to connect to 127.0.0.1:8888 (fd=6, id=4)
+2025-12-15 19:46:19 [ERROR] Failed to connect to 127.0.0.1:8888 (fd=6, id=4) using all resolved addresses (errno: Connection refused)
+2025-12-15 19:50:58 [INFO ] Accepted new client (fd=6, id=5)
+2025-12-15 19:50:58 [INFO ] Handling GREETING for fd=6, id=5
+2025-12-15 19:50:58 [INFO ] Handling AUTH for fd=6, id=5
+2025-12-15 19:50:58 [INFO ] Auth attempt for user 'pepe' (fd=6, id=5)
+2025-12-15 19:50:58 [ACCESS] user='pepe' status='AUTH_SUCCESS' details='User authenticated successfully (args)'
+2025-12-15 19:50:58 [INFO ] Handling REQUEST for fd=6, id=5
+2025-12-15 19:50:58 [INFO ] Client requested to connect to 127.0.0.1:8888 (fd=6, id=5)
+2025-12-15 19:50:58 [INFO ] Successfully connected to 127.0.0.1:8888 (fd=6, id=5)
+2025-12-15 19:50:58 [INFO ] Connection closed in relay (client=6)
+2025-12-15 20:26:50 [INFO ] POP3 dissectors enabled. Captures stored in pop3_credentials.log
+2025-12-15 20:27:16 [INFO ] POP3 dissectors enabled. Captures stored in pop3_credentials.log
+2025-12-15 20:27:21 [INFO ] Protocol dissectors enabled via management interface
+2025-12-15 20:27:39 [INFO ] Protocol dissectors disabled via management interface

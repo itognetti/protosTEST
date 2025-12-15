@@ -12,6 +12,8 @@
 #include <fcntl.h> // Para fcntl
 #include <sys/socket.h> // Para fcntl
 
+#include "utils/logger.h"
+
 // Helpers para enviar/recibir todo el payload
 static int send_all(int sock, const void* buffer, size_t length) {
     const uint8_t* ptr = (const uint8_t*)buffer;
@@ -43,9 +45,10 @@ static int recv_all(int sock, void* buffer, size_t length) {
 
 // Configuración dinámica del servidor
 static int g_connection_timeout_ms = 10000;   // Timeout por defecto (ms)
-static int g_buffer_size = 4096;              // Tamaño de buffer por defecto (bytes)
+static int g_buffer_size = DEFAULT_BUFFER_SIZE;              // Tamaño de buffer por defecto (bytes)
 static int g_max_clients = 1024;              // Máximo de clientes por defecto
 static bool g_dissectors_enabled = true;      // Disectores habilitados
+static pthread_mutex_t g_config_mutex = PTHREAD_MUTEX_INITIALIZER;
 
 // Puntero a datos compartidos
 static shared_data_t* g_shared_data = NULL;
@@ -429,7 +432,9 @@ int mgmt_handle_client(int client_sock) {
 
                 int ms = atoi(msg.username);  // El valor llega como string en username
                 if (ms > 0) {
+                    pthread_mutex_lock(&g_config_mutex);
                     g_connection_timeout_ms = ms;
+                    pthread_mutex_unlock(&g_config_mutex);
                     response.success = 1;
                     snprintf(response.message, sizeof(response.message),
                              "Timeout de conexión configurado en %d ms", ms);
@@ -449,7 +454,14 @@ int mgmt_handle_client(int client_sock) {
 
                 int bytes = atoi(msg.username);
                 if (bytes > 0) {
+                    if (bytes < MIN_BUFFER_SIZE) {
+                        bytes = MIN_BUFFER_SIZE;
+                    } else if (bytes > MAX_BUFFER_CAPACITY) {
+                        bytes = MAX_BUFFER_CAPACITY;
+                    }
+                    pthread_mutex_lock(&g_config_mutex);
                     g_buffer_size = bytes;
+                    pthread_mutex_unlock(&g_config_mutex);
                     response.success = 1;
                     snprintf(response.message, sizeof(response.message),
                              "Tamaño de buffer configurado en %d bytes", bytes);
@@ -469,7 +481,9 @@ int mgmt_handle_client(int client_sock) {
 
                 int num = atoi(msg.username);
                 if (num > 0) {
+                    pthread_mutex_lock(&g_config_mutex);
                     g_max_clients = num;
+                    pthread_mutex_unlock(&g_config_mutex);
                     response.success = 1;
                     snprintf(response.message, sizeof(response.message),
                              "Máximo de clientes configurado en %d", num);
@@ -486,10 +500,13 @@ int mgmt_handle_client(int client_sock) {
             {
                 mgmt_simple_response_t response;
                 memset(&response, 0, sizeof(response));
+                pthread_mutex_lock(&g_config_mutex);
                 g_dissectors_enabled = true;
+                pthread_mutex_unlock(&g_config_mutex);
                 response.success = 1;
                 snprintf(response.message, sizeof(response.message),
                          "Disectores habilitados");
+                log_info("Protocol dissectors enabled via management interface");
                 return mgmt_send_simple_response(client_sock, &response);
             }
 
@@ -497,10 +514,13 @@ int mgmt_handle_client(int client_sock) {
             {
                 mgmt_simple_response_t response;
                 memset(&response, 0, sizeof(response));
+                pthread_mutex_lock(&g_config_mutex);
                 g_dissectors_enabled = false;
+                pthread_mutex_unlock(&g_config_mutex);
                 response.success = 1;
                 snprintf(response.message, sizeof(response.message),
                          "Disectores deshabilitados");
+                log_info("Protocol dissectors disabled via management interface");
                 return mgmt_send_simple_response(client_sock, &response);
             }
 
@@ -521,10 +541,12 @@ int mgmt_handle_client(int client_sock) {
                 mgmt_config_response_t response;
                 memset(&response, 0, sizeof(response));
                 response.success = 1;
+                pthread_mutex_lock(&g_config_mutex);
                 response.timeout_ms = g_connection_timeout_ms;
                 response.buffer_size = g_buffer_size;
                 response.max_clients = g_max_clients;
                 response.dissectors_enabled = g_dissectors_enabled ? 1 : 0;
+                pthread_mutex_unlock(&g_config_mutex);
                 snprintf(response.message, sizeof(response.message),
                          "Configuración actual obtenida");
                 return mgmt_send_config_response(client_sock, &response);
@@ -665,6 +687,20 @@ int mgmt_send_simple_response(int sock, mgmt_simple_response_t* response) {
     return send_all(sock, response, sizeof(*response));
 }
 
+int mgmt_get_buffer_size(void) {
+    pthread_mutex_lock(&g_config_mutex);
+    int value = g_buffer_size;
+    pthread_mutex_unlock(&g_config_mutex);
+    return value;
+}
+
+bool mgmt_are_dissectors_enabled(void) {
+    pthread_mutex_lock(&g_config_mutex);
+    bool enabled = g_dissectors_enabled;
+    pthread_mutex_unlock(&g_config_mutex);
+    return enabled;
+}
+
 // -------- Config response helpers --------
 int mgmt_send_config_response(int sock, mgmt_config_response_t* response) {
     return send_all(sock, response, sizeof(*response));
@@ -730,7 +766,6 @@ void* mgmt_accept_loop(void* arg) {
         socklen_t addr_len = sizeof(client_addr);
         int client_sock = accept(server_sock, (struct sockaddr*)&client_addr, &addr_len);
         if (client_sock >= 0) {
-            // Asegurar modo bloqueante para operaciones sencillas de recv/send
             int flags = fcntl(client_sock, F_GETFL, 0);
             if (flags != -1) {
                 fcntl(client_sock, F_SETFL, flags & ~O_NONBLOCK);
